@@ -1,0 +1,363 @@
+body {
+    background-color: #FEFEFA;
+}
+
+/* MAIN DIVS */
+#renata .featurewrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*   gap: 50px; */
+    height: auto;
+    width: 80%;
+    margin: 10%;
+}
+
+
+/* SECUNDARY DIVS */
+#renata .intro {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+
+    /* background-color: lightgray; */
+    /*   padding-left: 50px;
+    padding-right: 50px; */
+}
+
+#renata .introimg {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    background-position: 50% 70%;
+    /* position: relative; */
+    /* background-color: lightgray; */
+    /*   padding-left: 50px;
+    padding-right: 50px; */
+}
+
+
+
+#renata .featureitem {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    /* background-color: lightgray; */
+    align-content: center;
+    margin-top: 100px;
+}
+
+#renata .text {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#renata .featureimg {
+    display: block;
+    height: 60vh;
+    width: 50%;
+    /*   background-color: #FEFEFA; */
+    margin-top: 100px;
+    /* position: relative; */
+
+
+}
+
+/* IMAGES */
+#img1 {
+    display: block;
+    width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1534413298607-48ba59e8a06d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    /* background-position: 50%;
+    background-attachment: fixed; */
+
+    /* left: 0; */
+
+
+}
+
+#img2 {
+    background-image: url("https://images.unsplash.com/photo-1486403184395-fc4990866136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+    /* left: 0; */
+}
+
+#img3 {
+    background-image: url("https://raizinvest.com.au/investors/wp-content/uploads/2019/10/car.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 50%;
+    background-attachment: fixed; */
+    /* margin-right: -20%; */
+    /* position: absolute; */
+    /* right: 0; */
+}
+
+#img4 {
+    background-image: url("https://images.unsplash.com/photo-1524080989185-22b076ffb631?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 50%;
+    background-attachment: fixed; */
+    /* position: absolute; */
+    /* left: 0; */
+}
+
+/* FONTS */
+#renata .h1intro {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#renata .h1 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#renata .h2 {
+    margin: 0px;
+}
+
+#renata .p {}
+
+
+/* HOW SECTION */
+
+#renata .how {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    height: auto;
+    width: 80%;
+    margin: 10%;
+    /* background-color: lightgray; */
+}
+
+#renata .titlecontainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+#renata .howwrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+    height: auto;
+    width: 100%;
+    /* margin: 150px; */
+    /* background-color: lightgray; */
+}
+
+#renata .howtext {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+}
+
+#renata .howsteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    gap: 5px;
+}
+
+.howicon {
+    height: 24px;
+    width: 24px;
+    margin-bottom: 10px;
+
+    /* background-image: url(../img/Wall\ clock.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+#bus {
+    width: 36px;
+}
+
+/* #howicon2 {
+    display: flex;
+    background-image: url(../img/Bus\ side\ view.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#howicon3 {
+    display: flex;
+    background-image: url(../img/Seeding.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.video {
+    height: auto;
+    width: 40%;
+
+}
+
+#howimg {
+    min-height: auto;
+    width: 80%;
+    /* background-image: url("../img/splashscreen.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+/* JQUERY */
+/* preparing Ipad screen view  */
+@media only screen and (max-width: 1208px) {
+    #renata .h1intro {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    #renata .h1 {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+
+/* Ipad screen view  */
+@media only screen and (max-width: 768px) {
+    /* #renata .h1intro {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    #renata .h1 {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+    } */
+
+    #renata .featurewrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*   gap: 50px; */
+        height: auto;
+        width: 80%;
+        margin: 10%;
+    }
+
+    #renata .intro {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+
+
+    }
+
+    #renata .introimg {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    #renata .text {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #renata .featureitem {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    #renata .featureimg {
+        width: 100%;
+        height: 50vh;
+        margin-top: 50px;
+    }
+
+    #renata .how {
+        width: 80%;
+        margin: 10%;
+    }
+
+    #renata .howwrap {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #renata .titlecontainer {
+        padding: 0px;
+    }
+
+    #renata .howtext {
+        padding: 0px;
+    }
+
+    .video {
+        display: flex;
+        height: auto;
+        width: 46%;
+        justify-content: center;
+    }
+
+    /* Iphone screen view  */
+    @media only screen and (max-width: 390px) {
+        #renata .h1intro {
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        #renata .h1 {
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        #renata .howwrap {
+            gap: 50px;
+            justify-content: center;
+        }
+
+        #howimg {
+            width: 100%;
+        }
+
+        #renata .titlecontainer {
+            width: 100%;
+        }
+
+        #renata .howtext {
+            width: 100%;
+        }
+    }
